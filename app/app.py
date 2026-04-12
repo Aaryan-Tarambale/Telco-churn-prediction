@@ -10,10 +10,9 @@ st.set_page_config(
     page_icon='📡',
     layout='centered'
 )
-
 # ── Load model
 with open('app/churn_model.pkl', 'rb') as f:
-
+    model = pickle.load(f)
 # ── Header
 st.markdown("""
     <h1 style='text-align: center; color: #1f77b4;'>📡 Telco Churn Predictor</h1>
