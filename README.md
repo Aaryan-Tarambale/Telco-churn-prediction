@@ -5,8 +5,8 @@ using Logistic Regression. The model identifies customers likely to cancel
 their subscription so the business can intervene with retention offers in time.
 
 ## 🔗 Live App
-[Telco Churn Predictor](your-streamlit-url-here)  
-*(update this link after deployment)*
+[Telco Churn Predictor](still under deployment)  
+
 
 ---
 
@@ -28,7 +28,6 @@ their subscription so the business can intervene with retention offers in time.
 - **Logistic Regression outperformed** Random Forest and Gradient Boosting
 - **Feature selection** reduced 56 features to 20 with zero performance loss
 
----
 ---
 
 ## 🛠️ Tech Stack
