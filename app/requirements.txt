@@ -1,4 +1,0 @@
-import sklearn
-import streamlit as st
-st.write(sklearn.__version__)
-st.stop()
