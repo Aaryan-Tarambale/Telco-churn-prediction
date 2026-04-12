@@ -12,8 +12,7 @@ st.set_page_config(
 )
 
 # ── Load model
-with open('churn_model.pkl', 'rb') as f:
-    model = pickle.load(f)
+with open('app/churn_model.pkl', 'rb') as f:
 
 # ── Header
 st.markdown("""
