@@ -1,4 +1,4 @@
-# 📡 Telco Customer Churn Prediction
+# Telco Customer Churn Prediction
 
 A machine learning project to predict customer churn for a telecom company 
 using Logistic Regression. The model identifies customers likely to cancel 
@@ -8,7 +8,7 @@ their subscription so the business can intervene with retention offers in time.
 [Telco Churn Predictor](https://huggingface.co/spaces/aaryant48/Customer_Churn_Peredictor_Telco)
 ---
 
-## 📊 Results
+## Results
 
 | Model | CV AUC | Test AUC | Churn Recall | Features |
 |---|---|---|---|---|
@@ -17,7 +17,7 @@ their subscription so the business can intervene with retention offers in time.
 
 ---
 
-## 🔍 Key Findings
+## Key Findings
 
 - **Contract type** is the strongest predictor — month-to-month customers churn 3x more
 - **New customers** (0-12 months tenure) are the highest risk group
@@ -28,7 +28,7 @@ their subscription so the business can intervene with retention offers in time.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Python** 3.11
 - **Scikit-learn** — Logistic Regression, RFE, Cross Validation
@@ -38,7 +38,7 @@ their subscription so the business can intervene with retention offers in time.
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 - **Source**: IBM Sample Dataset — Telco Customer Churn
 - **Size**: 7,043 customers, 19 features
@@ -47,7 +47,7 @@ their subscription so the business can intervene with retention offers in time.
 
 ---
 
-## 🚀 How to Run Locally
+## How to Run Locally
 
 1. Clone the repo
 ```bash
@@ -67,7 +67,7 @@ streamlit run app/app.py
 
 ---
 
-## 📋 Approach
+## Approach
 
 1. **Exploratory Data Analysis** — understand what drives churn
 2. **Feature Engineering** — created 4 new features from business logic
@@ -79,7 +79,7 @@ streamlit run app/app.py
 
 ---
 
-## 💡 Business Recommendation
+## Business Recommendation
 
 Focus retention efforts on customers who are:
 - On a **month-to-month contract**
